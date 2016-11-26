@@ -17,12 +17,33 @@ package com.onesky.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import lombok.Value;
+
+/**
+ * Generic meta data about a given object
+ */
+@Value
 public class Meta {
 
     private String status;
 
     @SerializedName("record_count")
     private int recordCount;
+
+    @SerializedName("page_count")
+    private int pageCount;
+
+    @SerializedName("next_page")
+    private int nextPage;
+
+    @SerializedName("prev_page")
+    private int previousPage;
+
+    @SerializedName("first_page")
+    private int firstPage;
+
+    @SerializedName("last_page")
+    private int lastPage;
 
     private String message;
 

@@ -15,6 +15,8 @@
  */
 package com.onesky.model;
 
+import java.util.List;
+
 import com.google.gson.annotations.SerializedName;
 
 import lombok.Value;
@@ -25,6 +27,6 @@ public class FileUploadResponse {
     private Meta meta;
 
     @SerializedName("data")
-    private FileUploadDetail detail;
+    private List<FileUploadDetail> detail;
 
 }

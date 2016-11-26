@@ -34,4 +34,18 @@ public class ProjectLanguage {
 
     private String region;
 
+    @SerializedName("is_base_language")
+    private boolean isBaseLanguage;
+
+    @SerializedName("is_ready_to_publish")
+    private boolean isReadyToPublish;
+
+    @SerializedName("translation_progress")
+    private String translationProgress;
+
+    @SerializedName("uploaded_at")
+    private String uploadedAt;
+
+    @SerializedName("uploaded_at_timestamp")
+    private long uploadedAtTimestamp;
 }

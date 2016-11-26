@@ -23,7 +23,9 @@ import lombok.Value;
 public class ProjectDetail {
 
     private long id;
+
     private String name;
+
     private String description;
 
     @SerializedName("project_type")
@@ -33,5 +35,5 @@ public class ProjectDetail {
     private Long stringCount;
 
     @SerializedName("word_count")
-    private Long StringWordCount;
+    private Long wordCount;
 }
