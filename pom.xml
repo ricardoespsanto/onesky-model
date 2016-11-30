@@ -21,6 +21,8 @@
         <tag>HEAD</tag>
     </scm>
 
+    <url>https://github.com/ricardoespsanto/onesky-model</url>
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
